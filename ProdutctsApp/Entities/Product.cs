@@ -27,11 +27,11 @@ namespace ProdutctsApp.Entities
             return Id +
                 ", " +
                 Name +
-                ", " +
+                ", Price:" +
                 Price.ToString("F2", CultureInfo.InvariantCulture) +
-                ", " +
+                ", Category:" +
                 Category.Name +
-                ", " +
+                ", Tier:" +
                 Category.Tier;
         }
     }
